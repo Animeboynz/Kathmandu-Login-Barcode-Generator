@@ -36,8 +36,11 @@ set "found=0"
 endlocal
  
 copy Login_Barcode.txt \\127.0.0.1\Zebra
- 
+
+pause
+
 DEL image.gif
 DEL temp.txt
 DEL Login_Barcode.txt
+
 exit 0
